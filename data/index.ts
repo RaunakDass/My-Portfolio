@@ -72,68 +72,53 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
+      title: "Car Details Showcase",
+      des: "The Car Showcase Website is a modern web application developed using Next.js, designed to display various car models with a sleek and responsive user interface",
+      img: "/p1.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+      link: "https://github.com/RaunakDass/car-showcase",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
+      title: "Duolingo-Clone",
+      des: "Created a DuoLingo-inspired web application using Next.js and TypeScript for language learning.",
+      img: "/p2.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+      link: "https://github.com/RaunakDass/duolingo-clone",
     },
-    {
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "/ui.aiimg.com",
-    },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
-    },
+    
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with Raunak was such a fun. His passion, madness, and dedication to organizing trips is commendable. I have found a very few like him. Looking forward to more trips with him in future",
+      name: "Manish Kumar Paul",
+      title: "Co Founder of Trips",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Being friends with Raunak has been such a joy. His passion, enthusiasm, and unwavering dedication to fostering friendships are truly commendable. I have found very few people like him. I look forward to many more amazing moments together in the future.",
+      name: "Rahul Saha",
+      title: "Director of Childhood Friednship" ,
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Enjoying biryani with Raunak has been an absolute joy. His dedication, enthusiasm, and passion for discovering the best biryani spots are truly remarkable. It's rare to find someone who shares this culinary obsession so deeply. I eagerly anticipate many more delicious biryani adventures with him in the future.",
+      name: "Biswajeet Biswal",
+      title: "Director of Daily Biryani",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Hanging out with Raunak and discussing cricket, politics, and so many other topics has been incredibly enjoyable. His enthusiasm, insight, and passion for engaging in deep conversations are truly remarkable. Paired with our shared love for good food, our time together is always memorable. I'm looking forward to many more enriching and delicious hangouts with him in the future.",
+      name: "Sudeep Kumar Acharjee",
+      title: "Director of Always AI",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Chatting with Raunak about college stories, random topics, and study-related matters has been a real pleasure. His enthusiasm, humor, and insightful perspectives make every conversation enjoyable. Whether we're reminiscing about the past or tackling academic challenges, our discussions are always memorable. I look forward to many more engaging and insightful conversations with him in the future.",
+      name: "Divyansh Gupta",
+      title: "Director of Always Chill",
     },
   ];
   
@@ -170,37 +155,6 @@ export const navItems = [
     },
   ];
   
-  export const workExperience = [
-    {
-      id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
-    },
-    {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp3.svg",
-    },
-    {
-      id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
-    },
-  ];
-  
   export const socialMedia = [
     {
       id: 1,
@@ -208,10 +162,7 @@ export const navItems = [
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
     },
+
   ];

@@ -9,7 +9,7 @@ import { cn } from "@/utils/cn";
 
 
 import { BackgroundGradientAnimation } from "./GradientBg";
-import GridGlobe from "./GridGlobe";
+//import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 
@@ -53,8 +53,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "NextJS", "Typescript"];
-  const rightLists = ["Javascript", "TailwindCSS", "Shadcn"];
+  const leftLists = ["NextJS", "ReactJS"];
+  const rightLists = ["Typescript  ","Javascript", "TailwindCSS"];
 
   const [copied, setCopied] = useState(false);
 
@@ -138,7 +138,7 @@ export const BentoGridItem = ({
           </div>
 
           {/* for the github 3d globe */}
-          {id === 2 && <GridGlobe />}
+          
 
           {/* Tech stack list div */}
           {id === 3 && (
@@ -156,7 +156,7 @@ export const BentoGridItem = ({
                 ))}
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
               </div>
-              <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-4">
                 <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
                 {rightLists.map((item, i) => (
                   <span
