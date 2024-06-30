@@ -21,21 +21,22 @@ const RecentProjects = () => {
           >
             <PinContainer
               title="/github.com"
-              href="https://github.com/RaunakDass"
+              
             >
-              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
-                <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
-                >
+               <a href={item.link}>
+               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
+                  <div
+                    className="relative w-full h-full overflow-hidden lg:rounded-3xl"
+                    style={{ backgroundColor: "#13162D" }}
+                  >
                   <img src="/bg.png" alt="bgimg" />
-                </div>
+                  </div>
                 <img
                   src={item.img}
                   alt="cover"
                   className="z-10 absolute bottom-0"
                 />
-              </div>
+              </div></a>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {item.title}
@@ -68,7 +69,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Github
+                    <a href={item.link}>Check Github</a>
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
