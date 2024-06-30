@@ -82,4 +82,7 @@
   .heading {
     @apply font-bold text-4xl md:text-5xl text-center;
   }
+  .headingsmall {
+    @apply font-bold text-xl md:text-2xl text-center;
+  }
 }

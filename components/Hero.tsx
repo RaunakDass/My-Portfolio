@@ -44,7 +44,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Modern Portfolio with Next.js
           </p>
 
           {/**
@@ -61,7 +61,7 @@ const Hero = () => {
             Hi! I&apos;m Raunak, a Frontend Developer based in Delhi, India.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
