@@ -80,12 +80,22 @@ export const navItems = [
     },
     {
       id: 2,
+      title: "Netflix-GPT",
+      des: "Created a Netflix inspired web application using React.js with additional exciting features.",
+      img: "/p3.png",
+      iconLists: ["/re.svg", "/tail.svg"],
+      link: "https://github.com/RaunakDass/netflix-gpt",
+    },
+    {
+      id: 3,
       title: "Duolingo-Clone",
       des: "Created a DuoLingo-inspired web application using Next.js and TypeScript for language learning.",
       img: "/p2.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
       link: "https://github.com/RaunakDass/duolingo-clone",
     },
+    
+    
     
   ];
   
